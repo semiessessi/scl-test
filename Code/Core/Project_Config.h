@@ -8,10 +8,10 @@
 
 static const SCL::Parameter kSCLParameters[] =
 {
-	{ "test1" },
-	{ "test2", true },
-	{ "test3", false, Handler3 },
-	{ "test3", false, Handler4 }
+	{ "test" },
+	{ "testis", true },
+	{ "testes", true, Handler3 },
+	{ "teste", false, Handler4 }
 };
 
 #endif

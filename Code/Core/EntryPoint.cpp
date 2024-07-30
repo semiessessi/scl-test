@@ -3,10 +3,10 @@
 
 namespace SCL
 {
-int EntryPoint(const int argumentCount, const char* const* const arguments, const SCL::Parameter* const parameters);
+int EntryPoint(const int argumentCount, const char* const* const arguments/*, const SCL::Parameter* const parameters*/);
 }
 
 int main(const int argumentCount, const char* const* const arguments)
 {
-	return SCL::EntryPoint(argumentCount, arguments, kSCLParameters);
+	return SCL::EntryPoint(argumentCount, arguments/*, kSCLParameters*/);
 }
