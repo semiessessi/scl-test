@@ -12,5 +12,16 @@
     <ClCompile Include="..\Code\Core\EntryPoint.cpp">
       <Filter>Code\Core</Filter>
     </ClCompile>
+    <ClCompile Include="..\Code\Core\Handlers.cpp">
+      <Filter>Code\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Core\Project_Config.h">
+      <Filter>Code\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Core\Handlers.h">
+      <Filter>Code\Core</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
