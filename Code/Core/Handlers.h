@@ -7,10 +7,10 @@
 
 namespace SCL
 {
-struct Parameter;
+struct ParameterInstance;
 }
 
-inline int Handler3(const SCL::Parameter&, const std::string&) { return 0; }
-inline int Handler4(const SCL::Parameter&, const std::string&) { return 0; }
+inline int Handler3(const SCL::ParameterInstance&, const std::string&) { return 0; }
+inline int Handler4(const SCL::ParameterInstance&, const std::string&) { return 0; }
 
 #endif
